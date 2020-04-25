@@ -1,0 +1,52 @@
+html, body {
+	height: 100%;
+	margin: 0;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../fonts/SourceSansProRegular.ttf');
+    font-weight: normal;
+}
+
+body {
+	font-family: 'SourceSansPro';
+	font-weight: normal;
+	background: #f1f1f1;
+}
+
+h2 {
+	line-height: 20px;
+	letter-spacing: 1.5px;
+}
+
+a {
+	color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 230px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    padding: 18px 25px;
+    text-decoration: none;
+}
+
+td div img {
+    width: 30vw;
+    height: 15vw;
+}
